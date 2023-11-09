@@ -2,7 +2,7 @@
 #assigning variables and printing out using string interpolation
 
 a = "My name is"
-b = "John Paul"
+b = "John Paul Ojwang"
 println("$a $b")
 
 # String operations in julia. 
