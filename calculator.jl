@@ -76,7 +76,7 @@ if operation == "add"
         end
 
 # Function to calculate gc content        
-function calculate_gc_content(dna_sequence::string)
+function calculate_gc_content(dna_sequence::String)
     # Making the function to only accept uppercase
     sequence = uppercase(sequence)
     # Making the function to count the number of G and C nucleotides
@@ -126,13 +126,16 @@ if x > y
     else
         println("Buzz")
     end
-end
+
 
 function  greet(name)
         println("hello julia")
     end
 
 greet("julia")
+
+
+
 
 
 
